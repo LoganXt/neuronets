@@ -99,7 +99,7 @@ ul li::marker{
     border-radius: 20px;
     padding-top: 20px;
 
-    width: 80%;
+    width: 75%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
@@ -183,7 +183,7 @@ img{
 }
 
 .rightimg{
-    min-width: 370px;
+    min-width: 350px;
     width: 40%;
     float: right;
     margin: 7px 0 7px 7px;
