@@ -2,6 +2,9 @@
     body{
         width: 1199px;
     }
+    nav{
+        margin-left: 70%;
+    }
  }
 
 @media screen and (max-width: 991px){
@@ -20,7 +23,7 @@
     body{
         width: 575px;
     }
- }
+}
 
 
 *{
@@ -54,8 +57,7 @@ body{
     top: 0;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0 10px #444;
-
+    box-shadow: 0 0 20px #1d0a0a;
 }
 
 .logo{
@@ -65,18 +67,20 @@ body{
     margin-left: 15%;
 }
 
+nav{
+    margin-left: 40%;
+    width: 60px;
+}
 .links{
-    margin-top: 42px;
-    margin-left: 350px;
-    width: 579px;
+    margin-top: 45px;
+    width: 100%;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    right: 10%;
+    float: right;
 }
 
-.link a {
-    margin-right: 50px;
+.link a{
     text-decoration: none;
 
     font-family: 'Roboto';
@@ -86,6 +90,11 @@ body{
     line-height: 26px;
 
     color: #ffffff;
+}
+
+ul li::marker{
+    color: #FD6868;
+    font-size: 2rem;
 }
 
 .main{
@@ -107,6 +116,16 @@ body{
     height: 70px;
     background-color: rgb(56, 56, 56);
     flex: 0 0 auto;
+
+}
+footer p, .mail{
+    color: rgb(190, 190, 190);
+    text-indent: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
 }
 
 h1{
@@ -138,7 +157,7 @@ p{
     line-height: 26px;
 }
 
-img {
+img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -149,9 +168,21 @@ img {
     border-radius: 10px;
     box-shadow: 0 0 10px #444;
 }
+
+.arrow-up{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: #FFFFFF;
+
+    border-radius: 50%;
+    box-shadow: 0 0 50px #fdbbbb;
+}
+
 .block{
     margin-top: 45px;
-    margin-bottom: 45px;
 }
 
 .rightimg{
@@ -163,4 +194,8 @@ img {
 
 a{
     color: black;
+}
+
+hr{
+    margin-top: 30px;
 }
