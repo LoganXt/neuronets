@@ -172,7 +172,7 @@ img{
     background: #FFFFFF;
 
     border-radius: 40px 0px 40px 0px;
-    box-shadow: 0 0 10px #181818;
+    box-shadow: 0 0 10px rgb(250,154,96);
 }
 
 .arrow-up{
@@ -192,10 +192,11 @@ img{
 }
 
 .rightimg{
-    max-width: 500px;
+    max-width: 700px;
     min-width: 350px;
-    width: 40%;
+    width: 45%;
     float: right;
+    border: 2px ridge rgb(250,154,96);
     margin: 7px 0 7px 7px;
 }
 a{
